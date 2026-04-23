@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.weatherapp"},{"l":"com.weatherapp.exception"},{"l":"com.weatherapp.model"},{"l":"com.weatherapp.service"},{"l":"com.weatherapp.util"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.weatherapp"},{"l":"com.weatherapp.cache"},{"l":"com.weatherapp.exception"},{"l":"com.weatherapp.model"},{"l":"com.weatherapp.service"},{"l":"com.weatherapp.util"}];updateSearchResults();

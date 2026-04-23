@@ -8,14 +8,14 @@ Una aplicación simple en **Java** que obtiene datos meteorológicos en tiempo r
 - ✅ Obtención automática de coordenadas geográficas
 - ✅ Datos meteorológicos actualizados en tiempo real
 - ✅ Información de temperatura, humedad y velocidad del viento
-- ✅ Interfaz amigable con emojis y formato legible
+- ✅ Interfaz amigable y formato legible
 - ✅ Manejo robusto de errores
 - ✅ Sin dependencias de claves API (Open-Meteo es gratuito)
 
 ## 📦 Requisitos
 
 - **Java 11+**
-- **Maven 3.6+** (o Gradle como alternativa)
+- **Maven 3.6+** 
 - Conexión a Internet
 
 ## 🚀 Instalación

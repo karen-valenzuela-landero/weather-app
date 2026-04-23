@@ -1,5 +1,8 @@
 package com.weatherapp.model;
 
+/**
+ * Modelo que representa la información del clima.
+ */
 public class Weather {
 
     private String city;

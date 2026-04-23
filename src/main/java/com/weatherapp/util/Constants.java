@@ -1,5 +1,8 @@
 package com.weatherapp.util;
 
+/**
+ * constantes a utlizar en la app.
+ */
 public class Constants {
     // URLs de las APIs
     public static final String GEOCODING_API_URL = 
