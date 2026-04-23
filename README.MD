@@ -45,23 +45,11 @@ O compilar y ejecutar manualmente:
 
 ### Ejemplo de ejecución
 
-- === Aplicación del Clima ===
-- Ingresa el nombre de la ciudad: Madrid
-
-- ╔════════════════════════════════════╗
-- ║     CLIMA EN MADRID                ║
-- ╚════════════════════════════════════╝
-- País: España
-- Coordenadas: 40.4168, -3.7038
-
-- 🌡️  Temperatura: 22.5°C
-- 💧 Humedad: 65%
-- 💨 Velocidad del viento: 12.4 km/h
-- 🌤️  Código de clima: Mayormente despejado
+![Ejemplo](image.png)
 
 ## 📂 Estructura del Proyecto
 
-![Estructura de carpetas](image.png)
+![Estructura de carpetas](image-1.png)
 
 ## 🔧 Componentes Principales
 
@@ -116,15 +104,8 @@ mvn test
 
 ### Categorías de Pruebas
 
-#### Categoría	Casos	Descripción
-- Entrada del Usuario	T001-T007	Validación de entrada
-- Geocodificación	T008-T013	Búsqueda de coordenadas
-- Datos Meteorológicos	T014-T019	Validez de datos climáticos
-- Parseo JSON	T020-T023	Manejo de respuestas JSON
-- Manejo de Errores	T024-T028	Conectividad y excepciones
-- Descripciones Clima	T029-T034	Códigos de clima
-- Integración Completa	T035-T037	Flujo de extremo a extremo
-- Rendimiento	T038-T040	Velocidad y concurrencia
+![pruebas](image-2.png)
+
 
 ### Pruebas Unitarias Clave
 
@@ -164,17 +145,8 @@ Todas se definen en el archivo pom.xml.
 
 ## 🌡️ Códigos de Clima Soportados
 
-Código	Descripción
-- 0	Cielo despejado
-- 1-2	Mayormente despejado
-- 3	Nublado
-- 45-48	Niebla
-- 51-55	Llovizna
-- 61-65	Lluvia
-- 71-77	Nieve
-- 80-82	Lluvia fuerte
-- 85-86	Aguaceros de nieve
-- 95-99	Tormenta
+![codigos](image-3.png)
+
 
 ## 🐛 Manejo de Errores
 
