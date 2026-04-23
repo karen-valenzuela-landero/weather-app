@@ -23,8 +23,8 @@ Una aplicación simple en **Java** que obtiene datos meteorológicos en tiempo r
 
 ### 1. Clonar o descargar el proyecto
 
-git clone git@github.com:karen-valenzuela-landero/weather-app.git
-cd weather-app
+- git clone git@github.com:karen-valenzuela-landero/weather-app.git
+- cd weather-app
 
 ### 2. Instalar dependencias
 
@@ -37,7 +37,7 @@ mvn compile
 ## 🎯 Uso
 
 Ejecutar la aplicación
-mvn exec:java -Dexec.mainClass="Main"
+- mvn exec:java -Dexec.mainClass="Main"
 
 O compilar y ejecutar manualmente:
 - javac -cp ".:gson-2.10.1.jar" Main.java WeatherData.java
@@ -61,7 +61,7 @@ O compilar y ejecutar manualmente:
 
 ## 📂 Estructura del Proyecto
 
-_ weather-app/
+- weather-app/
 - ├── src/
 - │   └── main/
 - │       └── java/
@@ -175,28 +175,6 @@ El proyecto utiliza las siguientes dependencias:
 
 Todas se definen en el archivo pom.xml.
 
-## 🛠️ Configuración de Maven
-
----
-<properties>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
-</properties>
-
-<dependencies>
-    <dependency>
-        <groupId>com.google.code.gson</groupId>
-        <artifactId>gson</artifactId>
-        <version>2.10.1</version>
-    </dependency>
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter</artifactId>
-        <version>5.9.2</version>
-        <scope>test</scope>
-    </dependency>
-</dependencies>
----
 
 ## 🌡️ Códigos de Clima Soportados
 
@@ -262,7 +240,7 @@ Este proyecto está bajo la licencia MIT. Ver el archivo LICENSE para más detal
 ## 👤 Autor
 
 Karen Valenzuela Landero
-GitHub: @karen-valenzuela-landero
+- GitHub: @karen-valenzuela-landero
 
 ## 📞 Soporte
 
@@ -279,7 +257,8 @@ Si encuentras problemas o tienes preguntas:
 - [Documentación de Gson](https://github.com/google/gson/blob/master/README.md)
 - [Documentación de JUnit 5](https://junit.org/junit5/docs/current/user-guide/)
 
-Este README incluye:
+## Este README incluye:
+
 - ✅ Descripción clara del proyecto
 - ✅ Requisitos e instalación
 - ✅ Instrucciones de uso con ejemplos
