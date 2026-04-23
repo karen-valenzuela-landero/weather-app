@@ -61,21 +61,7 @@ O compilar y ejecutar manualmente:
 
 ## 📂 Estructura del Proyecto
 
-- weather-app/
-- ├── src/
-- │   └── main/
-- │       └── java/
-- │           ├── Main.java                 # Punto de entrada y lógica principal
-- │           └── WeatherData.java          # Modelo de datos meteorológicos
-- │   └── test/
-- │       └── java/
-- │           └── WeatherAppTest.java       # Pruebas unitarias
-- ├── resources/
-- │   └── config.properties                 # Configuración (opcional)
-- ├── pom.xml                               # Configuración de Maven
-- ├── README.md                             # Este archivo
-- ├── .gitignore                            # Archivos a ignorar en Git
-- └── lib/                                  # Dependencias JAR (si es necesario)
+![Estructura de carpetas](image.png)
 
 ## 🔧 Componentes Principales
 
