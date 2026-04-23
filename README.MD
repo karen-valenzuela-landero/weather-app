@@ -11,6 +11,7 @@ Una aplicación simple en **Java** que obtiene datos meteorológicos en tiempo r
 - ✅ Interfaz amigable y formato legible
 - ✅ Manejo robusto de errores
 - ✅ Sin dependencias de claves API (Open-Meteo es gratuito)
+- ✅ JavaDoc generado
 
 ## 📦 Requisitos
 
@@ -22,7 +23,7 @@ Una aplicación simple en **Java** que obtiene datos meteorológicos en tiempo r
 
 ### 1. Clonar o descargar el proyecto
 
-git clone <tu-repositorio>
+git clone git@github.com:karen-valenzuela-landero/weather-app.git
 cd weather-app
 
 ### 2. Instalar dependencias
@@ -86,6 +87,7 @@ Main.java
   - makeRequest(): Realiza peticiones HTTP a las APIs
   - displayWeather(): Muestra los datos de forma legible
   - getWeatherDescription(): Convierte códigos de clima a descripciones
+
 WeatherData.java
 - Responsabilidad: Modelo de datos
 - Atributos:
